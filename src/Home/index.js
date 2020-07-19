@@ -15,16 +15,16 @@ function Home () {
       <div className="center">
           <img src={Logo} alt="Logo"/>
 
-          <a href="#" class="menu">
+          <a href="#menu" class="menu">
             <i class="fa fa-bars"></i>
           </a>
 
           <nav>
-              <a href="#">Home</a>
+              <a href="#home">Home</a>
               <a href="#about">Sobre</a>
               <a href="#tech">Portifólio</a>
-              <a href="#">Blog</a>
-              <a href="#">Contatos</a>
+              <a href="#blog">Blog</a>
+              <a href="#contatos">Contatos</a>
           </nav>
       </div>
     </header>
