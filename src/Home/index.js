@@ -1,13 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 import './styles.css';
 
 import Logo from '../img/Logo.svg'
 import Img from '../img/Img.svg'
 import Profile from '../img/Profile.jpg'
-import Repo from '../img/bethehero.svg';
-
-import api from '../services/api';
 
 function Home () {
 
