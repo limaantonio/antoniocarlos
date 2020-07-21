@@ -3,8 +3,8 @@ import React from 'react';
 import './styles.css';
 
 import Logo from '../img/Logo.svg'
-// import Img from '../img/Img.jpeg'
-import Img from '../img/Img.svg'
+import Img from '../img/Img.jpg'
+// import Img from '../img/Img.svg'
 import Profile from '../img/Profile.jpg'
 
 import Avatar from '../img/avatar.jpg'
@@ -32,10 +32,12 @@ function Home () {
       </div>
     </header>
     
+    
+  
     <div class="banner">
-      <div class="center">
+      <div class="back">
         <div class="banner-text">
-          <p>Olá, eu sou</p>
+        
           <h1>Antonio Carlos</h1>
           <p>Desenvolvedor Full-Stack</p>    
 
@@ -47,9 +49,13 @@ function Home () {
           
           </div>
         </div>
-        <img src={Img} alt=""/>
+        {/* <img src={Img} alt=""/> */}
         </div>
       </div>
+
+    
+   
+    
     
     <div id="about" class="about">
       <div class="center">
@@ -165,6 +171,27 @@ function Home () {
 
   <section id="blog" class="blog">
     <div class="center">
+      <a href="blog" class="blog-post">
+        <img src={Img} alt=""/>
+
+        <div class="post-content">
+          <img src={Avatar} class="avatar" alt=""/>
+
+          <div class="post-text">
+            <span class="date">
+              <i class="fa fa-calendar-alt"></i>
+                20 de agosto de 2020
+            </span>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat dolore aperiam praesentium. Exercitationem nobis pariatur, quo asperiores molestiae sint esse aspernatur voluptates quasi nam earum sit sed rem rerum nemo!</h3>
+          </div>
+        </div>
+
+        <div class="post-footer">
+          <span>LEIA MAIS <i class="fa fa-arrow-right"></i></span>
+          <span><i class="fa fa-comments"></i> 16 comentários</span>
+        </div>
+      </a>
+
       <a href="blog" class="blog-post">
         <img src={Img} alt=""/>
 
