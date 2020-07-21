@@ -161,9 +161,9 @@ function Home () {
     </div>
   </section>
 
-  <section class="blog">
+  <section id="blog" class="blog">
     <div class="center">
-      <a href="#" class="blog-post">
+      <a href="blog" class="blog-post">
         <img src={Img} alt=""/>
 
         <div class="post-content">
