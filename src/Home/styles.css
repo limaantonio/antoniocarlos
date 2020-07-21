@@ -442,3 +442,179 @@ header nav a {
     width: 100%;
   }
 }
+
+/*BLOG ........................*/
+
+.blog {
+  padding: 8rem 0 10rem;
+}
+
+.blog .center {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog .center a {
+  text-decoration: none;
+}
+
+.blog-post {
+  width: 550px;
+  background: #fff;
+  box-shadow: 0 20px 30px rgba(113, 89, 193, .2);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: box-shadow .3s;
+}
+
+.blog-post > img {
+  width: 100%;
+  display: block;
+}
+
+.blog-post i {
+  color: #0fcac6;
+  font-size: 14px;
+}
+
+.post-content {
+  padding: 2rem;
+  display: flex;
+}
+
+.post-content .avatar {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  margin-top: -40px;
+  margin-right: 2.5rem;
+}
+
+.post-text .date {
+  display: flex;
+  align-items: center;
+  color: #666;
+}
+
+.post-text .date i {
+  margin-right: 8px;
+}
+
+.post-text h3 {
+  color: #444;
+  line-height: 1.3;
+  margin-top: .75rem;
+  transition: color .3s;
+}
+
+.post-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.post-footer span {
+  font-size: 1.4rem;
+  color: #666;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.post-footer i {
+  margin: 0 5px;
+  font-size: 13px;
+  transition: transform .2s;
+}
+
+.post-footer span:first-child {
+  width: 100px;
+  justify-content: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.blog-post:hover {
+  box-shadow: 0 15px 20px rgba(113, 89, 193, .35);
+}
+.blog-post:hover .post-text h3 {
+  color: #7159c1;
+}
+.blog-post:hover .post-footer span:first-child i {
+  transform: translateX(5px);
+}
+
+@media (max-width: 1240px) {
+  .blog {
+    padding: 5rem 0 7rem;
+  }
+
+  .blog-post {
+    width: calc(50% - 2rem);
+  }
+
+  .post-content .avatar {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 720px) {
+  .blog .center {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-post {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .blog-post + .blog-post {
+    margin-top: 4rem;
+  }
+
+  .post-content {
+    flex-direction: column;
+  }
+
+  .post-text {
+    margin-top: 1.5rem;
+  }
+
+  .post-content .avatar {
+    align-self: center;
+  }
+}
+
+/* FOOTER ------------------------------------------------------------------- */
+
+footer {
+  background: #6554C0;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+footer img {
+  opacity: .25;
+  width: 10rem;
+}
+
+footer p {
+  opacity: .55;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
