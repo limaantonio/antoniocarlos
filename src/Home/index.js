@@ -3,8 +3,10 @@ import React from 'react';
 import './styles.css';
 
 import Logo from '../img/Logo.svg'
+// import Img from '../img/Img.jpeg'
 import Img from '../img/Img.svg'
 import Profile from '../img/Profile.jpg'
+
 import Avatar from '../img/avatar.jpg'
 
 function Home () {

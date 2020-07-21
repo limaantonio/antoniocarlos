@@ -116,6 +116,7 @@ header nav a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* background-image: url('../img/Img.jpeg'); */
 }
 
 .banner .center img {
